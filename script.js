@@ -117,3 +117,12 @@ ScrollReveal().reveal('.about-img,.filter-buttons,.contact-info', { origin: "lef
 ScrollReveal().reveal('.about-content,.info', { origin: "right" });
 ScrollReveal().reveal('.allService,.portfolio-gallery,.hobby-box, footer,.img-hero', { origin: "bottom" });
 
+
+// typing effect
+var typingEffect = new Typed(".type_effect",{
+    strings : ["Designer","Python Developer","Frontend Developer"],
+    loop : true,
+    typeSpeed : 100,
+    backSpeed : 80,
+    backDelay : 2000
+});
