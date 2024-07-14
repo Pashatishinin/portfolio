@@ -118,6 +118,7 @@ ScrollReveal().reveal('.about-content,.info', { origin: "right" });
 ScrollReveal().reveal('.allService,.portfolio-gallery,.hobby-box, footer,.img-hero', { origin: "bottom" });
 
 
+
 // typing effect
 var typingEffect = new Typed(".type_effect",{
     strings : ["Designer","Python Developer","Frontend Developer"],
