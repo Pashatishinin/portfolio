@@ -9,7 +9,7 @@ const ProjectItem = ({ title, link, github, skills, img }) => {
       </div>
       <div className="m-3">
         <div className="flex justify-between items-center">
-          <h3 className="w-2/3 text-xl font-montserrat uppercase font-semibold">
+          <h3 className="w-2/3 text-xl font-montserrat uppercase font-semibold tracking-widest">
             {title}
           </h3>
           <div className="w-1/4 flex gap-2 justify-end">
@@ -50,7 +50,9 @@ const ProjectItem = ({ title, link, github, skills, img }) => {
           </div>
         </div>
         <div className="mt-5">
-          <h4 className="uppercase text-sm font-medium">skills:</h4>
+          <h4 className="uppercase text-sm font-medium tracking-widest">
+            skills:
+          </h4>
           <ul className="flex flex-wrap my-5 mx-2 gap-5">
             {skills.map((item, index) => (
               <li>

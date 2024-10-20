@@ -40,7 +40,7 @@ const projects = [
     link: "https://olivermckenzie.onrender.com",
     github: "https://github.com/Pashatishinin/OliverMcKenzie",
     skills: [html, css, js, greensock],
-    img: "/assets/projects/olivermckenzie.png",
+    img: "/portfolio/assets/projects/olivermckenzie.png",
   },
   {
     title: "Ahin Anburaja | Product Manager",
@@ -95,6 +95,7 @@ export default function Projects() {
   
   return (
     <section className="p-6 ">
+      <h1 className="text-transparent bg-clip-text bg-gradient-to-b from-yellow-300 via-red-400 to-pink-700 font-josefin uppercase font-black text-6xl text-center mb-10">My Projects</h1>
       <div className="flex flex-wrap gap-5 justify-center">
         {projects.map((item, index) => (
           <ProjectItem
