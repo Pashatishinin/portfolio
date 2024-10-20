@@ -49,15 +49,14 @@ const ProjectItem = ({ title, link, github, skills, img }) => {
             </a>
           </div>
         </div>
-        <div className="mt-5">
+        <div className="mt-16">
           <h4 className="uppercase text-sm font-medium tracking-widest">
             skills:
           </h4>
-          <ul className="flex flex-wrap my-5 mx-2 gap-5">
+          <ul className="flex flex-wrap my-8 mx-2 gap-5 ">
             {skills.map((item, index) => (
-              <li>
+              <li key={index}>
                 <svg
-                  key={index}
                   role="img"
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
