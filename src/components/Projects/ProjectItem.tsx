@@ -3,7 +3,7 @@ import React from "react";
 const ProjectItem = ({ title, link, github, skills, img }) => {
  
   return (
-    <div className="w-1/4 bg-[#1e1e1e] text-white">
+    <div className="w-full sm:w-1/2 lg:w-1/4 bg-[#1e1e1e] text-white">
       <div className="m-3">
         <img src={img} alt="" />
       </div>
