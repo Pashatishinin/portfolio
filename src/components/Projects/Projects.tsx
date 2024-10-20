@@ -33,7 +33,7 @@ const projects = [
     link: "pavlotishynin.com",
     github: "",
     skills: [astro, react, tailwind],
-    img: "",
+    img: "/portfolio/assets/projects/portfolio.png",
   },
   {
     title: "Oliver McKenzie | Designer",
