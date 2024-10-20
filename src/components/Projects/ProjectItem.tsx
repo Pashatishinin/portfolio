@@ -12,7 +12,7 @@ const ProjectItem = ({ title, link, github, skills, img }) => {
           <h3 className="w-2/3 text-xl font-montserrat uppercase font-semibold tracking-widest">
             {title}
           </h3>
-          <div className="w-1/4 flex gap-2 justify-end">
+          <div className="w-1/4 flex gap-3 justify-end">
             <a
               className="rounded-full p-2 border border-white flex justify-end"
               href={link}
