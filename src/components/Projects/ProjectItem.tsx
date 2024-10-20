@@ -35,7 +35,7 @@ const ProjectItem = ({ title, link, github, skills, img }) => {
 
             <a
               href={github}
-              className="w-5 sm:w-10 p-2 rounded-full border border-white flex justify-end"
+              className="w-5 sm:w-10  flex justify-end"
             >
               <svg
                 role="img"
