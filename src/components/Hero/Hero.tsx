@@ -23,10 +23,10 @@ export default function Hero() {
   })
 
   return (
-    <section className="p-6 h-screen bg-gradient-to-bl from-[#242424] via-[#111111]">
-      <div className="w-3/4 mt-48 mx-20  font-semibold text-white">
+    <section className="p-6 h-screen w-screen bg-gradient-to-bl from-[#242424] via-[#111111]">
+      <div className=" md:w-3/4 mt-48 md:mx-20  font-semibold text-white">
         <div className="flex gap-10 items-center">
-          <h2 className="text-7xl font-montserrat ml-1">Hi</h2>
+          <h2 className="text-2xl md:text-7xl font-montserrat ml-1">Hi</h2>
           <img
             ref={waveRef}
             className="rotate-[25deg] h-12"
@@ -35,9 +35,11 @@ export default function Hero() {
           />
         </div>
 
-        <h2 className="text-7xl font-montserrat mb-5 ml-1">I'm Pavlo</h2>
+        <h2 className="text-2xl md:text-7xl font-montserrat mb-5 ml-1">
+          I'm Pavlo
+        </h2>
         <div className="flex">
-          <h1 className="uppercase text-9xl font-bold font-josefin text-transparent bg-clip-text bg-gradient-to-b from-yellow-300 via-red-400 to-pink-700">
+          <h1 className="uppercase text-4xl md:text-9xl font-bold font-josefin text-transparent bg-clip-text bg-gradient-to-b from-yellow-300 via-red-400 to-pink-700">
             {text}
           </h1>
         </div>
