@@ -14,7 +14,7 @@ const ProjectItem = ({ title, link, github, skills, img }) => {
           </h3>
           <div className="w-1/4 flex gap-2 justify-end">
             <a
-              className="w-10 rounded-full p-2 border border-white flex justify-end"
+              className="w-5 sm:w-10 rounded-full p-2 border border-white flex justify-end"
               href={link}
             >
               <svg
@@ -35,7 +35,7 @@ const ProjectItem = ({ title, link, github, skills, img }) => {
 
             <a
               href={github}
-              className="w-10 p-2 rounded-full border border-white flex justify-end"
+              className="w-5 sm:w-10 p-2 rounded-full border border-white flex justify-end"
             >
               <svg
                 role="img"
