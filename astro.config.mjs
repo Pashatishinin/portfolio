@@ -6,5 +6,9 @@ import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), react()]
+  site: 'https://Pashatishinin.github.io',
+  base: '/portfolio',
+  integrations: [tailwind(), react()],
+  publicDir: 'public', // Эта папка обычно содержит статические файлы, такие как изображения
+  
 });
