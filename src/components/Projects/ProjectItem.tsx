@@ -14,12 +14,12 @@ const ProjectItem = ({ title, link, github, skills, img }) => {
           </h3>
           <div className="w-1/4 flex gap-2 justify-end">
             <a
-              className="w-5 sm:w-10 rounded-full p-2 border border-white flex justify-end"
+              className="rounded-full p-2 border border-white flex justify-end"
               href={link}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="ionicon"
+                className="ionicon w-5 md:w-10 fill-current text-white"
                 viewBox="0 0 512 512"
               >
                 <path
@@ -35,7 +35,7 @@ const ProjectItem = ({ title, link, github, skills, img }) => {
 
             <a
               href={github}
-              className="flex justify-end"
+              className="rounded-full p-2 border border-white flex justify-end"
             >
               <svg
                 role="img"
